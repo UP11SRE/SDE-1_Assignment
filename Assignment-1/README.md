@@ -61,6 +61,7 @@ API Documentation:
        - request_id
        - status (e.g., pending, complete, failed)
        - output_csv (public S3 URL to the output CSV file)
+       - Example CSV file: https://compressimageurls.s3.ap-south-1.amazonaws.com/csvfile/1d2a2ffe-cf50-43d1-ab6f-ed09a003582c_output.csv
        - error (if any)
    - Example using Curl:
      curl http://<HOST>/status/unique-request-id
